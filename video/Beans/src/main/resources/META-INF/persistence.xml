@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ues.edu.sv.progra_Beans_ejb_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <jta-data-source>jdbc/mariadb</jta-data-source>
+    <class>ues.edu.sv.progra.liberaria.Departments</class>
+    <class>ues.edu.sv.progra.liberaria.DeptEmp</class>
+    <class>ues.edu.sv.progra.liberaria.DeptManager</class>
+    <class>ues.edu.sv.progra.liberaria.Employees</class>
+    <class>ues.edu.sv.progra.liberaria.Salaries</class>
+    <class>ues.edu.sv.progra.liberaria.Titles</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
